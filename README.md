@@ -22,3 +22,7 @@ https://codesandbox.io/s/sunglassesshop-ss5q7?file=/README.md
 
 https://github.com/lindicell/SunglasseShop
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e20f4bb7f7e8bf252c6c46e23f631c1fddc07166
