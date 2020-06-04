@@ -17,20 +17,19 @@ body {
 	position: relative;
 }
 
-
 .modal{
 	height: 300px;
   width: 100%;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .vm--modal {
+  overflow: scroll !important;
 	top: 533px;
 	left: 286px;
 	width: 600px;
-	height: 400px;
+  height: 600px !important;
 }
 
 table {
@@ -45,16 +44,15 @@ td, th {
   padding: 8px;
 }
 
-
 .navbar-brand {
 	font-weight: 800;
 	font-size: 20px;
 	text-transform: uppercase;
 }
+
 .img{
   height: 300px;
   width: 100%
-
 }
 
 .dropbtn {
@@ -102,17 +100,35 @@ td, th {
   justify-content: space-around;
 }
 
-
-
-
-
 .container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 	div{
     width: 30%;
     height: 300px;
     list-style: none;
 	}
+}
+
+@media screen and (max-width: 768px) {
+  .img{
+    height: 50%;
+  }
+  .dropdown-content {
+    width: max-content;
+    overflow: scroll;
+  }
+  .container p{
+    height: 100px;
+  }
+  #qty{
+    width: 80px;
+  }
+  .vm--modal {
+    left: 0 !important;
+    width: 100% !important;
+    height: max-content;
+    overflow: scroll;
+  }
 }
