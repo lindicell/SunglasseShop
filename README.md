@@ -1,5 +1,4 @@
-02/06/2020
-Desafio linx commerce
+
 
 1. Tecnologia
    A tecnologia escolhida para realizar o desafio foi Vue.js que faz parte das novas tendencias para FrontEnd, além de ser simples e fácil de entender.
@@ -23,13 +22,4 @@ https://codesandbox.io/s/sunglassesshop-ss5q7?file=/README.md
 
 https://github.com/lindicell/SunglasseShop
 
-4. PERGUNTAS DO EMAIl
 
-- Qual o grau de dificuldade da prova? (fácil, médio, difícil).
-  Médio, encontrei algumas dificuldades durante o desenvolvimento da prova, além de aprender uma tecnologia nova para mim. Foi bem desafiador e fiquei bem contente com o resultado obtido, apesar de customizar algumas partes do projeto principal.
-
-- Qual a data e horário que iniciou a prova:
-  A prova foi iniciada no dia 02/06 as 19:00 horas.
-
-- Data e horário que finalizou a prova  
-  Finalizei no dia 03/06 as 23:20.
